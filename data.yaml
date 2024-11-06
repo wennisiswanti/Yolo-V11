@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['car']
+
+roboflow:
+  workspace: university-of-patras-1jcsr
+  project: parking-monitor
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-of-patras-1jcsr/parking-monitor/dataset/1
